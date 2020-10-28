@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+## Visualização e análise do desempenho de jogadores em jogos Battle Royale
 
-You can use the [editor on GitHub](https://github.com/borgesmari/borgesmari.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+Interesses:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+* Jogos cada vez mais complexos, atingindo um público cada vez mais amplo e diversificado;
 
-### Markdown
+* A motivação dos jogadores está relacionada com a sua experiência e comportamento no jogo;
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+* Interesse na análise do comportamento dos jogadores, o que impacta nas decisões de design.
+
+
+### Sobre o Dataset
+
+#### PUBG Match Deaths and Statistics:
+
+* Mais de 65 milhões de mortes  em 720 mil partidas de PlayerUnknown Battleground's (PUBG), durante o último semestre de 2017;
+
+* Dados extraídos do pubg.op.gg;
+
+* Metadados  dos jogadores e partida.
+
 
 ```markdown
-Syntax highlighted code block
+## Objetivos do projeto: 
 
-# Header 1
-## Header 2
-### Header 3
+A partir do dataset selecionado será realizada uma análise quantitativa sobre: 
+1. tamanho da equipe, correlacionando com o tempo de sobrevivência do jogador; 
+2. tamanho da equipe em relação a classificação final do jogador; 
+3. Número de “assistências” de um jogador relacionado ao seu tempo de sobrevivência/classificação final.
 
-- Bulleted
-- List
+Os resultados obtidos serão demonstrados utilizando técnicas de visualização de dados. 
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/borgesmari/borgesmari.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
